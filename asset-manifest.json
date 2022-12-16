@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Flowchart/static/css/main.b4b6f4ea.css",
+    "main.js": "/Flowchart/static/js/main.f950fb17.js",
+    "static/js/787.f055211e.chunk.js": "/Flowchart/static/js/787.f055211e.chunk.js",
+    "index.html": "/Flowchart/index.html",
+    "main.b4b6f4ea.css.map": "/Flowchart/static/css/main.b4b6f4ea.css.map",
+    "main.f950fb17.js.map": "/Flowchart/static/js/main.f950fb17.js.map",
+    "787.f055211e.chunk.js.map": "/Flowchart/static/js/787.f055211e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4b6f4ea.css",
+    "static/js/main.f950fb17.js"
+  ]
+}
