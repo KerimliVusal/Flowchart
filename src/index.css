@@ -1,13 +1,300 @@
-body {
+*{
+  padding:0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.mydivheader ul{
+  display: flex;
+}
+.mydivheader ul li{
+  flex:1;
+  text-align: center;
+  
+}
+ ul li {
+  margin-bottom: 1em;
+  position: relative;
+} 
+ /*
+ main commet
+ 
+ .main ul li::before{
+  content: '';
+  width: 2px;
+  position: absolute;
+  top:calc(-.5em );
+  left: 50%;
+  height:calc(1em - 7px) ;
+  background: #000;
+  text-align: center;
+}
+ ul li::after{
+  content: '';
+  width: 2px;
+  position: absolute;
+  top:calc(2em);
+  left: 50%;
+  height:calc(1em - 3px) ;
+  background: #000;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main::after{
+  content: '';
+  width: 63%;
+  position: absolute;
+  top:calc(3em - 3px);
+  left:18.7%;
+  right:0;
+  text-align: center;
+  height:2px;
+  background: #000;
+  text-align: center;
+  
+  
+}   */
+/* .ul11::after{
+  content: '';
+  width: 50%;
+  position: absolute;
+  top:calc(1em - 4px);
+  left:25%;
+  right:0;
+  text-align: center;
+  height:2px;
+  background: #000;
+  text-align: center;
+
+  main commet
+  
+}  */
+
+.main ul{
+  position: relative;
+}
+.li {
+  position: relative;
+  margin: 0 auto;
+}
+.lastnode::after{
+ opacity: 0;
+}
+
+ 
+.contaner ul {
+  position: relative;
+}
+.main{
+  position: relative;
+}
+li ul{
+  position: relative;
+}
+ 
+.contaner{
+  position: relative;
+}
+
+/*1 for ALL NODES */
+/*  
+
+
+*/
+
+/*2 FOR 3 main child NODE */
+
+/* .nodes::after{
+  content: '';
+  width: 45.6%;
+  position: absolute;
+  top:calc(3em - 3px);
+  left:27.4%;
+  right:0;
+  text-align: center;
+  height:2px;
+  background: #000;
+  text-align: center;
+  
+  
+}  */
+/* and its bottom */
+/*  .mainli::after{
+  content: '';
+  width: 2px;
+  position: absolute;
+  top:calc(2em);
+  left: 50%;
+  height:calc(1em - 3px) ;
+  background: #000;
+  text-align: center;
+}
+  
+}  
+ and 2 main child node
+
+
+  .main ul li::before{
+  content: '';
+  width: 2px;
+  position: absolute;
+  top:calc(-.5em );
+  left: 50%;
+  height:calc(1em - 7px) ;
+  background: #000;
+  text-align: center;
+}
+ .mainli::after{
+  content: '';
+  width: 2px;
+  position: absolute;
+  top:calc(2em);
+  left: 50%;
+  height:calc(1em - 3px) ;
+  background: #000;
+  text-align: center;
+}
+ 
+.main::after{
+  content: '';
+  width: 45.6%;
+  position: absolute;
+  top:calc(3em - 3px);
+  left:27.4%;
+  right:0;
+  text-align: center;
+  height:2px;
+  background: #000;
+  text-align: center;
+  
+  
+} 
+only one node
+ 
+
+
+*/
+
+
+.main li{
+  flex:1;
+}
+ul li{
+  list-style-type: none;
+  margin: 20px;
+  
+  
+}
+.li1{
+  display:flex;
+  /* justify-content:center;
+  align-items: center; */
+  
+  
+  
+}
+.li1 li{
+  flex:1;
+}
+.li{
+  display: flex;
+  position: relative;
+ 
+  
+ 
+}
+.li li{
+  flex:1;
+}
+.ul11{
+  display: flex;
+}
+.ul21{
+  display: flex;
+}
+.ul31{
+  display: flex;
+}
+input{
+  width: 120px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  color: black;
+  border:1px dashed black;
+}
+button{
+  background: none;
+  border: none;
+  color: rgb(78, 78, 78);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size:20px;
+}
+
+
+/* dragg */
+#mydiv {
+  position: absolute;
+   z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  left:40%;
+  top:30%;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: #fff;
+}
+
+/* ul li li ul li ul li input{
+  background-color: rgb(0, 255, 98);
+}
+ul li  li li ul ul li input{
+  background-color: rgb(255, 174, 0);
+}
+ul li li  input{
+  background-color: rgb(140, 0, 255);
+}
+ul li li ul li input{
+  background-color: rgb(255, 0, 221);
+}
+ .lastnode input{
+  background-color: rgb(25, 0, 255);
+}
+.main1{
+  background-color: rgb(211, 226, 141);
+} */
+.zoom{
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  border:1px solid black;
+  
+  
+}
+.zoom button {
+  font-size: 18px !important;
+  padding: 5px;
+}
+.zoom select{
+  width: 60px;
+  padding: 7px;
+  outline: none;
+  border:none;
+}
+/* button icon color */
+.buton1{
+  color:red;
+}
+.buton2{
+  color:yellow;
+}
+#btn64{
+  
+ 
+ 
 }
